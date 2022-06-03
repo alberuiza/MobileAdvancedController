@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 94204939}
   - component: {fileID: 94204938}
   - component: {fileID: 94204941}
+  - component: {fileID: 94204942}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -225,6 +226,27 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &94204942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94204936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68046048c765e4364a773e409c636c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  smoothTime: 5
+  leftJoystick: {fileID: 148640038}
+  rightJoystick: {fileID: 1248860477}
+--- !u!1 &148640038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 761570396219272494, guid: a4e82ed35065e48fd9ba2e6ae11edbee, type: 3}
+  m_PrefabInstance: {fileID: 761570396096330760}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &297878033
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,6 +589,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!1 &1248860477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 761570397269681461, guid: a4e82ed35065e48fd9ba2e6ae11edbee, type: 3}
+  m_PrefabInstance: {fileID: 761570396096330760}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &761570396096330760
 PrefabInstance:
   m_ObjectHideFlags: 0
